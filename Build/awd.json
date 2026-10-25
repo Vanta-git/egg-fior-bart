@@ -1,0 +1,16 @@
+{
+"companyName": "Fleebs",
+"productName": "EggsForBart",
+"productVersion": "0.1",
+"dataUrl": "awd.data.unityweb",
+"wasmCodeUrl": "awd.wasm.code.unityweb",
+"wasmFrameworkUrl": "awd.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#544040",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.4f1"
+}

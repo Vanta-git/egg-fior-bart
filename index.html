@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EggsForBart</title>
+
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script src="Build/SplitFileLoader.js"></script>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            background: #000;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        .webgl-content {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+
+        #unityContainer {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+            max-width: none !important;
+            max-height: none !important;
+            overflow: hidden !important;
+        }
+
+        #unityContainer canvas {
+            display: block !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .footer,
+        .webgl-logo,
+        .fullscreen,
+        .title {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="webgl-content">
+        <div id="unityContainer"></div>
+    </div>
+
+    <script>
+        var unityInstance = UnityLoader.instantiate(
+            "unityContainer",
+            "Build/awd.json",
+            {
+                onProgress: UnityProgress
+            }
+        );
+
+        function resizeUnity() {
+            var container = document.getElementById("unityContainer");
+
+            container.style.width = window.innerWidth + "px";
+            container.style.height = window.innerHeight + "px";
+
+            var canvas = container.querySelector("canvas");
+
+            if (canvas) {
+                canvas.style.width = "100%";
+                canvas.style.height = "100%";
+            }
+        }
+
+        window.addEventListener("resize", resizeUnity);
+        window.addEventListener("orientationchange", resizeUnity);
+
+        var observer = new MutationObserver(resizeUnity);
+
+        observer.observe(document.getElementById("unityContainer"), {
+            childList: true
+        });
+
+        resizeUnity();
+    </script>
+</body>
+</html>

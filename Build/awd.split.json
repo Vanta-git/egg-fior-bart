@@ -1,0 +1,268 @@
+{
+  "generatedBy": "tools/split-unity-build.mjs",
+  "partSize": 3000000,
+  "files": {
+    "awd.data.unityweb": {
+      "name": "awd.data.unityweb",
+      "size": 164264111,
+      "sha256": "720c93937268d08121725a5b95f4426f594c2b4b1be9e7f486c85100e92024fb",
+      "parts": [
+        {
+          "name": "awd.data.unityweb.part000",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part001",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part002",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part003",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part004",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part005",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part006",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part007",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part008",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part009",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part010",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part011",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part012",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part013",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part014",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part015",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part016",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part017",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part018",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part019",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part020",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part021",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part022",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part023",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part024",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part025",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part026",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part027",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part028",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part029",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part030",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part031",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part032",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part033",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part034",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part035",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part036",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part037",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part038",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part039",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part040",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part041",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part042",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part043",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part044",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part045",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part046",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part047",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part048",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part049",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part050",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part051",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part052",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part053",
+          "size": 3000000
+        },
+        {
+          "name": "awd.data.unityweb.part054",
+          "size": 2264111
+        }
+      ]
+    },
+    "awd.wasm.code.unityweb": {
+      "name": "awd.wasm.code.unityweb",
+      "size": 20963792,
+      "sha256": "d4bdf942a00878be2e86c5a641739d2ce60eeb4ba78539131a37341b8be1f56f",
+      "parts": [
+        {
+          "name": "awd.wasm.code.unityweb.part000",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part001",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part002",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part003",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part004",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part005",
+          "size": 3000000
+        },
+        {
+          "name": "awd.wasm.code.unityweb.part006",
+          "size": 2963792
+        }
+      ]
+    }
+  }
+}
